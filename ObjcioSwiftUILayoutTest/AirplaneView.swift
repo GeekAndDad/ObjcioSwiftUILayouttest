@@ -39,7 +39,7 @@ struct AirplaneView: View {
 			from
 				.frame(maxWidth: .infinity, alignment: .leading)
 			Spacer()
-			airplaneIcon
+			airplaneIcon.fixedSize()
 			Spacer()
 			to
 				.frame(maxWidth: .infinity, alignment: .trailing)
