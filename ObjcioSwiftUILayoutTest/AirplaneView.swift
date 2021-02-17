@@ -19,10 +19,7 @@ struct ContentView: View {
 			}
 
 			Spacer()
-
 			AirplaneView()
-			//	.padding(/*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
-
 			Spacer()
 		}
 		.padding([.leading, .trailing], 10)
